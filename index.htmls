@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Bestie 🎉</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      max-width: 700px;
+      padding: 35px;
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      color: #ff3b6f;
+      margin-bottom: 15px;
+    }
+
+    .emoji {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #444;
+      margin-top: 20px;
+    }
+
+    .heart {
+      font-size: 35px;
+      margin: 20px 0;
+      animation: beat 1.5s infinite;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-weight: bold;
+      color: #ff3b6f;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🎉 Happy Birthday Bestie 🎉</h1>
+
+    <div class="emoji">💖✨🫶🥹🌍💫</div>
+
+    <p>
+      Today isn’t just another day, it’s the day the universe created someone truly special — YOU 🌍💫🥹.
+      You are my safe place 🫂❤️, my personal therapist 😌🧠, my biggest motivator 🚀🔥,
+      and the reason behind so many of my smiles 😂💛.
+      Whenever I feel low, you understand me without a word 🤝💞.
+      When I doubt myself, you remind me of my worth 💪🌟.
+      Thank you for being my constant, my comfort, and my forever friend 🫶😎💥.
+      I’m so grateful for you today, tomorrow, and always ♾️💙.
+    </p>
+
+    <div class="heart">💖💖💖</div>
+
+    <div class="footer">
+      With Lots of Love 💌 <br>
+      — Your Best Friend 🫶
+    </div>
+
+  </div>
+
+</body>
+</html>
